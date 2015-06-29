@@ -1,0 +1,15 @@
+{
+  "name": "the-bespoke-pixel-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Companion syntax theme for the-bespoke-pixel-ui.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/MarkGriffiths/the-bespoke-pixel-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
