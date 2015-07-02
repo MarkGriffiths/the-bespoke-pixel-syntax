@@ -3,15 +3,15 @@
 @import "hues.less";
 
 // General colors
-@syntax-text-color: hsl(@lime, 6% ,85%);
-@syntax-cursor-color: hsl(@lime,0%,100%);
-@syntax-selection-color: hsl(@yellow,6%,27%);
-@syntax-background-color: hsl(@lime,6%,14%);
+@syntax-text-color: hsl(@text-hue, @text-saturation, @text-brightness);
+@syntax-cursor-color: hsl(@text-hue, 0%, 100%);
+@syntax-selection-color: hsl(@text-hue, @text-saturation, (@ui-brightness*1.8));
+@syntax-background-color: hsl(@ui-hue, @ui-saturation, @ui-brightness);
 
 // Guide colors
-@syntax-wrap-guide-color: darken(@syntax-selection-color, 7%);
+@syntax-wrap-guide-color: darken(@syntax-selection-color, 2%);
 @syntax-indent-guide-color: @syntax-selection-color;
-@syntax-invisible-character-color: lighten(@syntax-selection-color, 10%);
+@syntax-invisible-character-color: lighten(@syntax-selection-color, 5%);
 
 // For find and replace markers
 @syntax-result-marker-color: lighten(@syntax-selection-color,10%);

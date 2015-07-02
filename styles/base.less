@@ -90,7 +90,9 @@ atom-text-editor, :host {
 			}
 		}
 	}
-
+	.underline {
+		border-bottom: 1px solid @syntax-invisible-character-color;
+	}
 	.comment {
 		color: @comment;
 		//Like so!
@@ -235,6 +237,34 @@ atom-text-editor, :host {
 					color: lighten(@html, 5%);
 				}
 			}
+		}
+	}
+
+	.source {
+		&.gfm, &.markdown {
+			.link {
+				.entity {
+					color: @class;
+				}
+			}
+			.unordered.list {
+				color: @variable;
+			}
+			.ordered.list {
+				color: @constant;
+			}
+		}
+	}
+
+	.markup {
+		&.heading {
+			color: @string;
+			&.heading-1 {
+				font-weight: bold;
+			}
+		}
+		&.link {
+			color: @html;
 		}
 	}
 }

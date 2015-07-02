@@ -1,7 +1,7 @@
 {
   "name": "the-bespoke-pixel-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Companion syntax theme for the-bespoke-pixel-ui.",
   "keywords": [
     "syntax",
