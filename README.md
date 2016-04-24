@@ -6,4 +6,4 @@ Tested, with good support, against the languages I use regularly which include, 
 
 Now remodelled to be used as a companion with [the-bespoke-pixel-ui](http://atom.io/themes/the-bespoke-pixel-ui) theme for Atom..
 
-![Screenshot](http://markgriffiths.github.io/screenshots/the-bespoke-pixel-ui.png)
+![Screenshot](https://raw.githubusercontent.com/MarkGriffiths/the-bespoke-pixel-ui/master/media/the-bespoke-pixel-ui.png)
