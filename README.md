@@ -1,5 +1,7 @@
 # ‘The Bespoke Pixel’ Syntax theme for Atom
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MarkGriffiths/the-bespoke-pixel-syntax.svg)](https://greenkeeper.io/)
+
 This started life as syntax colouring in BBEdit 4, got migrated to SubEthaEdit, then Textmate, where it absorbed some Monokai, and, with further customisation ended up in Sublime Edit.
 
 Tested, with good support, against the languages I use regularly which include, but not limited to: html, css, javascript, coffeescript, ruby, python and php with the appropriate atom-language packages installed.
